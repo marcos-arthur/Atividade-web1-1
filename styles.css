@@ -1,0 +1,77 @@
+*{
+    color: #3b3b3b;
+}
+
+body{
+    background-color: #E0E0E0;
+}
+
+.nav_panel{
+    background-color: #1251a3 !important;
+    margin-bottom: 20px;
+}
+
+.header_text{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FAF9F6;
+}
+
+
+/* https://www.webfx.com/blog/web-design/circular-images-css/ */
+.circular--square{
+    display: inline-block; 
+    position: relative; 
+    width: 200px; 
+    height: 200px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+} 
+
+.circular--landscape img { 
+    width: auto; 
+    height: 100%; 
+    margin-left: -50px;
+}
+
+.group{
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+    padding: 15px;
+}
+
+.user-name{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.links div{
+    margin-top: 3px;
+    margin-right: 4px;
+    font-weight: 600;
+
+    a{
+        text-decoration: none;
+        color: #1251a3;
+    }   
+}
+
+.side-header{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button{
+    background-color: #1251a3;
+    color: #FAF9F6;
+}
+
+.comment-area{
+    padding: 4px;
+    background: #e7e7e7;
+    border-radius: 5px;
+}
